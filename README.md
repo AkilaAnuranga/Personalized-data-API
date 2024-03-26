@@ -47,7 +47,7 @@ Request Body
 
 #### Get item
 
-```
+```http
   GET /api/external/products
 ```
 
@@ -59,4 +59,30 @@ Request Body
 | `Limit`      | `string` | **optional**. **default** = 10, **max** = 100 |
 
 
+#### Response
+```
 
+[
+    {
+        "id": 6,
+        "product": {
+            "id": 4,
+            "productId": "BB-4653218",
+            "category": "Babies",
+            "brand": "Babyom"
+        },
+        "relevancyScore": 55.16626010671777
+    },
+    {
+        "id": 5,
+        "product": {
+            "id": 5,
+            "productId": "MD-654613215",
+            "category": "Babies",
+            "brand": "Babyom"
+        },
+        "relevancyScore": 73.01492966268303
+    }
+]
+
+```
