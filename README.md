@@ -47,7 +47,7 @@ Request Body
 
 #### Get item
 
-```http
+```
   GET /api/external/products
 ```
 
