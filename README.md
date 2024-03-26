@@ -3,7 +3,7 @@
 
 #### Insert Product metadata
 
-```http
+```
   POST /api/internal/products
 ```
 Request Body
@@ -19,7 +19,7 @@ Request Body
 
 #### Insert Shopper with Products
 
-```http
+```
   POST /api/internal/shopper/products
 ```
 Request Body
@@ -47,7 +47,7 @@ Request Body
 
 #### Get item
 
-```http
+```
   GET /api/external/products
 ```
 
